@@ -11,31 +11,32 @@ function randomSquare() {
     if (currentTime === 0) {
         clearInterval(timerId)
     }
-    if (currentTime === 50) {
-        clearInterval(timerId)
-        X = 800
-        moveMole()
-    }
-    if (currentTime === 40) {
+    if (currentTime === 35) {
         clearInterval(timerId)
         X = 600
         moveMole()
     }
     if (currentTime === 30) {
         clearInterval(timerId)
-        X = 500
-        moveMole()
-    }
-    if (currentTime === 20) {
-        clearInterval(timerId)
         X = 400
         moveMole()
     }
-    if (currentTime === 10) {
+    if (currentTime === 25) {
         clearInterval(timerId)
         X = 300
         moveMole()
     }
+    if (currentTime === 20) {
+        clearInterval(timerId)
+        X = 200
+        moveMole()
+    }
+    if (currentTime === 10) {
+        clearInterval(timerId)
+        X = 100
+        moveMole()
+    }
+
 
 
 
