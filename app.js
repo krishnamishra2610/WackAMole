@@ -18,20 +18,30 @@ function randomSquare() {
     }
     if (currentTime === 30) {
         clearInterval(timerId)
-        X = 400
+        X = 500
         moveMole()
     }
     if (currentTime === 25) {
         clearInterval(timerId)
-        X = 350
+        X = 450
         moveMole()
     }
     if (currentTime === 20) {
         clearInterval(timerId)
-        X = 300
+        X = 400
+        moveMole()
+    }
+    if (currentTime === 15) {
+        clearInterval(timerId)
+        X = 350
         moveMole()
     }
     if (currentTime === 10) {
+        clearInterval(timerId)
+        X = 300
+        moveMole()
+    }
+    if (currentTime === 5) {
         clearInterval(timerId)
         X = 200
         moveMole()
