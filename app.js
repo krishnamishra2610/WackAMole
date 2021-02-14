@@ -5,7 +5,7 @@ let score = document.querySelector('#score')
 
 let result = 0
 let currentTime = timeLeft.textContent
-var X = 1000
+var X = 800
 
 function randomSquare() {
     if (currentTime === 0) {
@@ -18,28 +18,33 @@ function randomSquare() {
     }
     if (currentTime === 30) {
         clearInterval(timerId)
-        X = 550
+        X = 500
+        moveMole()
+    }
+    if (currentTime === 25) {
+        clearInterval(timerId)
+        X = 400
         moveMole()
     }
     
     if (currentTime === 20) {
         clearInterval(timerId)
-        X = 500
+        X = 380
         moveMole()
     }
     if (currentTime === 15) {
         clearInterval(timerId)
-        X = 450
+        X = 340
         moveMole()
     }
     if (currentTime === 10) {
         clearInterval(timerId)
-        X = 400
+        X = 300
         moveMole()
     }
     if (currentTime === 5) {
         clearInterval(timerId)
-        X = 350
+        X = 280
         moveMole()
     }
 
